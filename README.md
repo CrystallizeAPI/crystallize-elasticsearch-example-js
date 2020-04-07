@@ -76,20 +76,18 @@ search and filter. For example:
 ```graphql
 query {
   productVariants(
-    after: 10
-    first: 5
-    orderBy: { field: PRICE, direction: DESC }
     filter: { searchTerm: "kiwi" }
+    orderBy: { field: PRICE, direction: DESC }
   ) {
     totalCount
     productVariants {
       variant {
         name
         price
+        stock
       }
       product {
         name
-        path
       }
     }
   }
