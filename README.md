@@ -1,4 +1,4 @@
-# crystallize-elastic-js
+# Crystallize ElasticSearch Example (JS)
 
 > An example service for integrating ElasticSearch with Crystallize.
 
